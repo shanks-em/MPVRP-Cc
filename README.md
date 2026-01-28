@@ -22,7 +22,7 @@ solutions are not included, the expected submission format is outlined
 ```bash
 # Clone the repository
 git clone https://github.com/shanks-em/MPVRP-Cc.git
-cd mpvrp-cc-solver
+cd MPVRP-Cc
 
 # Install dependencies
 pip install -r requirements.txt
