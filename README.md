@@ -19,44 +19,42 @@ solutions are not included, the expected submission format is outlined
 ******************************************
  
 ## Use
-# MPVRP-CC - Multi-Product Vehicle Routing Problem with Changeover Cost
+## MPVRP-CC - Multi-Product Vehicle Routing Problem with Changeover Cost
 
-## Installation & Setup
+### Installation & Setup
 
-### Create Virtual Environment
+#### Create Virtual Environment
 ```bash
 cd MPVRP-CC
 python3 -m venv venv
 ```
 
-### Activate Virtual Environment
+#### Activate Virtual Environment
 ```bash
 source venv/bin/activate
 ```
 
-## Usage
-
-### Test API Connection
+#### Test API Connection
 ```bash
 python3 test_api.py
 ```
 
-### Generate Instances
+#### Generate Instances
 ```bash
 python3 scripts/generate_instances.py
 ```
 
-### Solve Single Instance
+#### Solve Single Instance
 ```bash
 python3 main.py instances/path/to/instance.dat
 ```
 
-### Validate Solution
+#### Validate Solution
 ```bash
 python3 scripts/test_validation.py instances/path/to/instance.dat solutions/path/to/Sol_instance.dat
 ```
 
-### Batch Testing
+#### Batch Testing
 
 **Small instances:**
 ```bash
@@ -73,7 +71,7 @@ python3 scripts/solve_batch.py instances/medium/ --verify
 python3 scripts/solve_batch.py instances/large/ --verify
 ```
 
-### View Batch Results
+#### View Batch Results
 ```bash
 gedit solutions/batch_results.csv
 ```
