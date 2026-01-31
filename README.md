@@ -16,8 +16,44 @@ solutions are not included, the expected submission format is outlined
 
 
 ## Structure
-  A faire
-  
+MPVRP-CC/
+├── docs/
+│   ├── .gitkeep
+│   ├── Modelisation.pdf
+│   ├── instance_description.pdf
+│   ├── problem_definition.pdf
+│   └── solution_description.pdf
+├── instances/
+│   ├── high/
+│   ├── medium/
+│   └── small/
+├── scripts/
+│   ├── .gitkeep
+│   ├── generer_instances.py
+│   ├── solve_batch.py
+│   ├── test_validation.py
+│   └── valider_solution.py
+├── solutions/
+│   └── .gitkeep
+├── src/
+│   ├── .gitkeep
+│   ├── __init__.py
+│   ├── api_client.py
+│   ├── models.py
+│   ├── parser.py
+│   ├── solution_model.py
+│   ├── solution_writer.py
+│   ├── solver_simple.py
+│   ├── test_api.py
+│   └── validator.py
+├── tests/
+│   └── .gitkeep
+├── README.md
+├── main.py
+├── requirements.txt
+├── test_api.py
+└── test_import.py
+```  
 ## Installation
 ```bash
 # Clone the repository
